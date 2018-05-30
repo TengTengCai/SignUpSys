@@ -1,0 +1,443 @@
+[ 2017-04-07T22:37:32+08:00 ] ::1 /SignUpSys/index.php/Home/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant HOME_JS_URL - assumed 'HOME_JS_URL' E:\DevelopTools\xampp\htdocs\SignUpSys\Runtime\Cache\Home\29043a4c167ab71e7ddaec218a6a2780.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-07T22:37:32+08:00 ] ::1 /SignUpSys/index.php/Home/Login/verifyImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-07T22:37:44+08:00 ] ::1 /SignUpSys/index.php/Home/Login/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `su_student` WHERE ( stu_Number=123 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-07T22:37:44+08:00 ] ::1 /SignUpSys/index.php/Home/Login/verifyImg?0.17425628164527462
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-07T22:37:44+08:00 ] ::1 /SignUpSys/index.php/Home/Training/choice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_training_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_student_training` [ RunTime:0.0030s ]
+SQL: SELECT `stu_Name`,`stu_Grade`,`stu_Profession`,`stu_Class` FROM `su_student` WHERE ( stu_Number = 123 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `su_student_training` WHERE ( tra_StuNumber = 123 )  [ RunTime:0.0000s ]
+
+[ 2017-04-07T22:37:44+08:00 ] ::1 /SignUpSys/index.php/Training/choiced.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_training_tree` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_training` [ RunTime:0.0010s ]
+SQL: SELECT `stu_Name`,`stu_Grade`,`stu_Profession`,`stu_Class` FROM `su_student` WHERE ( stu_Number = 123 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `su_student_training` WHERE ( tra_StuNumber = 123 )  [ RunTime:0.0000s ]
+SQL: SELECT `stu_Name`,`stu_Grade`,`stu_Profession`,`stu_Class` FROM `su_student` WHERE ( stu_Number = 123 )  [ RunTime:0.0000s ]
+SQL: SELECT tra_TrNodeId AS ttr_NodeId FROM `su_student_training` WHERE ( tra_StuNumber = 123 )  [ RunTime:0.0000s ]
+SQL: SELECT `ttr_NodeId`,`ttr_ParentId`,`ttr_Name`,`ttr_Limit`,`ttr_Synopsis` FROM `su_training_tree` WHERE (  `ttr_NodeId` = '13' )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(tra_StuNumber) AS count FROM `su_student_training` WHERE ( tra_TrNodeId = 13 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: table E:\DevelopTools\xampp\htdocs\SignUpSys\App\Home\Controller\TrainingController.class.php 第 142 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: rule_grade E:\DevelopTools\xampp\htdocs\SignUpSys\Runtime\Cache\Home\bea1c1793448fc18169fb6efbc618062.php 第 109 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-07T22:38:02+08:00 ] ::1 /SignUpSys/index.php/Home/Training/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_training_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `su_student_training` [ RunTime:0.0010s ]
+SQL: SELECT `stu_Name`,`stu_Grade`,`stu_Profession`,`stu_Class` FROM `su_student` WHERE ( stu_Number = 123 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `su_student_training` WHERE ( tra_StuNumber = 123 )  [ RunTime:0.0000s ]
+
+[ 2017-04-07T22:38:02+08:00 ] ::1 /SignUpSys/index.php/Training/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-07T22:38:02+08:00 ] ::1 /SignUpSys/index.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant HOME_JS_URL - assumed 'HOME_JS_URL' E:\DevelopTools\xampp\htdocs\SignUpSys\Runtime\Cache\Home\29043a4c167ab71e7ddaec218a6a2780.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-07T22:38:02+08:00 ] ::1 /SignUpSys/index.php/Home/Login/verifyImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-07T22:38:13+08:00 ] ::1 /SignUpSys/index.php/Home/Login/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `su_student` WHERE ( stu_Number=1234 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-07T22:38:13+08:00 ] ::1 /SignUpSys/index.php/Home/Login/verifyImg?0.7618783841095201
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-07T22:38:25+08:00 ] ::1 /SignUpSys/index.php/Home/Login/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `su_student` WHERE ( stu_Number=1234 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-07T22:38:25+08:00 ] ::1 /SignUpSys/index.php/Home/Login/verifyImg?0.9009829625994874
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-07T22:38:25+08:00 ] ::1 /SignUpSys/index.php/Home/Training/choice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_training_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_student_training` [ RunTime:0.0020s ]
+SQL: SELECT `stu_Name`,`stu_Grade`,`stu_Profession`,`stu_Class` FROM `su_student` WHERE ( stu_Number = 1234 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `su_student_training` WHERE ( tra_StuNumber = 1234 )  [ RunTime:0.0000s ]
+SQL: SELECT `stu_Name`,`stu_Grade`,`stu_Profession`,`stu_Class` FROM `su_student` WHERE ( stu_Number = 1234 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: rule_grade E:\DevelopTools\xampp\htdocs\SignUpSys\Runtime\Cache\Home\3a22290b584d56864102dc8be98b5ce3.php 第 214 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-07T22:38:25+08:00 ] ::1 /SignUpSys/index.php/Home/Training/getTTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_training_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_training` [ RunTime:0.0010s ]
+SQL: SELECT `stu_Name`,`stu_Grade`,`stu_Profession`,`stu_Class` FROM `su_student` WHERE ( stu_Number = 1234 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `su_student_training` WHERE ( tra_StuNumber = 1234 )  [ RunTime:0.0000s ]
+SQL: SELECT `ttr_NodeId`,`ttr_ParentId`,ttr_Name AS name,ttr_Level AS level,`ttr_Limit`,`ttr_Synopsis` FROM `su_training_tree` WHERE ( ttr_Name = '计算机科学与技术' )  [ RunTime:0.0000s ]
+SQL: SELECT `ttr_NodeId`,`ttr_ParentId`,ttr_Name AS name,ttr_Level AS level,`ttr_Limit`,`ttr_Synopsis` FROM `su_training_tree` WHERE ( ttr_Name = '2014' AND ttr_ParentId = '5'  )  [ RunTime:0.0010s ]
+SQL: SELECT `ttr_NodeId`,`ttr_ParentId`,ttr_Name AS name,ttr_Level AS level,`ttr_Limit`,`ttr_Synopsis` FROM `su_training_tree` WHERE ( ttr_ParentId = 6 )  [ RunTime:0.0000s ]
+SQL: SELECT `ttr_NodeId`,`ttr_ParentId`,ttr_Name AS name,ttr_Level AS level,`ttr_Limit`,`ttr_Synopsis` FROM `su_training_tree` WHERE ( ttr_ParentId = 13 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-07T22:38:53+08:00 ] ::1 /SignUpSys/index.php/Home/Training/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_training_tree` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_training` [ RunTime:0.0020s ]
+SQL: SELECT `stu_Name`,`stu_Grade`,`stu_Profession`,`stu_Class` FROM `su_student` WHERE ( stu_Number = 1234 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `su_student_training` WHERE ( tra_StuNumber = 1234 )  [ RunTime:0.0000s ]
+
+[ 2017-04-07T22:38:53+08:00 ] ::1 /SignUpSys/index.php/Training/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-07T22:38:53+08:00 ] ::1 /SignUpSys/index.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant HOME_JS_URL - assumed 'HOME_JS_URL' E:\DevelopTools\xampp\htdocs\SignUpSys\Runtime\Cache\Home\29043a4c167ab71e7ddaec218a6a2780.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-07T22:38:53+08:00 ] ::1 /SignUpSys/index.php/Home/Login/verifyImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-07T22:39:12+08:00 ] ::1 /SignUpSys/index.php/Home/Login/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `su_student` WHERE ( stu_Number=12345 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-07T22:39:12+08:00 ] ::1 /SignUpSys/index.php/Home/Student/choice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0030s ]
+SQL: SELECT `stu_Name`,`stu_Grade`,`stu_Profession`,`stu_Class` FROM `su_student` WHERE ( stu_Number = 12345 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `su_student_choice` WHERE ( ch_StuNumber = 12345 )  [ RunTime:0.0000s ]
+
+[ 2017-04-07T22:39:12+08:00 ] ::1 /SignUpSys/index.php/Home/Login/verifyImg?0.6678595887362034
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-07T22:39:12+08:00 ] ::1 /SignUpSys/index.php/Student/choiced.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SELECT `stu_Name`,`stu_Grade`,`stu_Profession`,`stu_Class` FROM `su_student` WHERE ( stu_Number = 12345 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `su_student_choice` WHERE ( ch_StuNumber = 12345 )  [ RunTime:0.0010s ]
+SQL: SELECT `stu_Name`,`stu_Grade`,`stu_Profession`,`stu_Class` FROM `su_student` WHERE ( stu_Number = 12345 )  [ RunTime:0.0000s ]
+SQL: SELECT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_StuNumber = 12345 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId`,`ctr_ParentId`,`ctr_Name`,`ctr_Synopsis` FROM `su_course_tree` WHERE (  `ctr_NodeId` = '35' ) OR (  `ctr_NodeId` = '36' ) OR (  `ctr_NodeId` = '48' ) OR (  `ctr_NodeId` = '49' )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 35 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_Limit` FROM `su_course_tree` WHERE ( ctr_NodeId = 33 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: table E:\DevelopTools\xampp\htdocs\SignUpSys\App\Home\Controller\StudentController.class.php 第 176 行.
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 36 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_Limit` FROM `su_course_tree` WHERE ( ctr_NodeId = 33 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 48 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_Limit` FROM `su_course_tree` WHERE ( ctr_NodeId = 42 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 49 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_Limit` FROM `su_course_tree` WHERE ( ctr_NodeId = 42 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-07T22:39:16+08:00 ] ::1 /SignUpSys/index.php/Training/choice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_training_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `su_student_training` [ RunTime:0.0010s ]
+SQL: SELECT `stu_Name`,`stu_Grade`,`stu_Profession`,`stu_Class` FROM `su_student` WHERE ( stu_Number = 12345 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `su_student_training` WHERE ( tra_StuNumber = 12345 )  [ RunTime:0.0000s ]
+
+[ 2017-04-07T22:39:16+08:00 ] ::1 /SignUpSys/index.php/Training/choiced.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_training_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_training` [ RunTime:0.0020s ]
+SQL: SELECT `stu_Name`,`stu_Grade`,`stu_Profession`,`stu_Class` FROM `su_student` WHERE ( stu_Number = 12345 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `su_student_training` WHERE ( tra_StuNumber = 12345 )  [ RunTime:0.0000s ]
+SQL: SELECT `stu_Name`,`stu_Grade`,`stu_Profession`,`stu_Class` FROM `su_student` WHERE ( stu_Number = 12345 )  [ RunTime:0.0000s ]
+SQL: SELECT tra_TrNodeId AS ttr_NodeId FROM `su_student_training` WHERE ( tra_StuNumber = 12345 )  [ RunTime:0.0000s ]
+SQL: SELECT `ttr_NodeId`,`ttr_ParentId`,`ttr_Name`,`ttr_Limit`,`ttr_Synopsis` FROM `su_training_tree` WHERE (  `ttr_NodeId` = '18' )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(tra_StuNumber) AS count FROM `su_student_training` WHERE ( tra_TrNodeId = 18 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: table E:\DevelopTools\xampp\htdocs\SignUpSys\App\Home\Controller\TrainingController.class.php 第 142 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: rule_grade E:\DevelopTools\xampp\htdocs\SignUpSys\Runtime\Cache\Home\bea1c1793448fc18169fb6efbc618062.php 第 109 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

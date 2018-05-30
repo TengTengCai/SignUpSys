@@ -1,0 +1,2817 @@
+[ 2017-04-19T20:31:26+08:00 ] ::1 /SignUpSys/index.php/Admin/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017000s ]
+
+[ 2017-04-19T20:31:26+08:00 ] ::1 /SignUpSys/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T20:31:28+08:00 ] ::1 /SignUpSys/index.php/Admin/Login/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0030s ]
+SQL: SELECT `mg_Id` FROM `su_manager` WHERE `mg_Name` = 'admin' AND `mg_Password` = '123456' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T20:31:29+08:00 ] ::1 /SignUpSys/index.php/Admin/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_training` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `su_training_tree` [ RunTime:0.0020s ]
+SQL: SELECT DISTINCT stu_Grade FROM `su_student`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\StudentController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-19T20:31:30+08:00 ] ::1 /SignUpSys/index.php/Admin/Student/getAllStudentInfo?order=asc&offset=0&limit=20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `su_student_training` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_training_tree` [ RunTime:0.0020s ]
+SQL: SELECT `stu_Number`,`stu_Name`,`stu_Sex`,`stu_Grade`,`stu_Profession`,`stu_Class` FROM `su_student`  [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T20:31:33+08:00 ] ::1 /SignUpSys/index.php/Admin/CTree/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name = 'admin' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T20:31:33+08:00 ] ::1 /SignUpSys/index.php/Admin/CTree/getTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0030s ]
+SQL: SELECT `ctr_NodeId`,`ctr_ParentId`,ctr_Name AS name,`ctr_Limit`,`ctr_Level`,`ctr_Synopsis` FROM `su_course_tree`  [ RunTime:0.0010s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 12 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 14 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 15 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 16 )  [ RunTime:0.0010s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 19 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 20 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 22 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 23 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 25 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 26 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 28 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 29 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 33 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 35 )  [ RunTime:0.0010s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 34 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 37 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 40 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 44 )  [ RunTime:0.0010s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 41 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 46 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 42 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 48 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 43 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 50 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 55 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 59 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 56 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 62 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 57 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 65 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 58 )  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 67 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T20:31:36+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE ( ctr_Level = 3 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: direction E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 30 行.
+SQL: SELECT DISTINCT  `stu_Grade` FROM `su_student`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: grades E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 2 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 3 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 4 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 5 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 6 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 7 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 8 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 9 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 10 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 11 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 34 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T20:31:37+08:00 ] ::1 /SignUpSys/index.php/Admin/Student/getAllStudentInfo?order=asc&offset=0&limit=20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_training` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_training_tree` [ RunTime:0.0030s ]
+SQL: SELECT `stu_Number`,`stu_Name`,`stu_Sex`,`stu_Grade`,`stu_Profession`,`stu_Class` FROM `su_student`  [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T20:31:43+08:00 ] ::1 /SignUpSys/index.php/Admin/CTree/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name = 'admin' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015001s ]
+
+[ 2017-04-19T20:31:43+08:00 ] ::1 /SignUpSys/index.php/Admin/CTree/getTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `ctr_NodeId`,`ctr_ParentId`,ctr_Name AS name,`ctr_Limit`,`ctr_Level`,`ctr_Synopsis` FROM `su_course_tree`  [ RunTime:0.0010s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 12 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 14 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 15 )  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 16 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 19 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 20 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 22 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 23 )  [ RunTime:0.0010s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 25 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 26 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 28 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 29 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 33 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 35 )  [ RunTime:0.0010s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 34 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 37 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 40 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 44 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 41 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 46 )  [ RunTime:0.0010s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 42 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 48 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 43 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 50 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 55 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 59 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 56 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 62 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 57 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 65 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 58 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 67 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T20:31:44+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE ( ctr_Level = 3 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: direction E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 30 行.
+SQL: SELECT DISTINCT  `stu_Grade` FROM `su_student`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: grades E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 2 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 3 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 4 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 5 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 6 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 7 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 8 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 9 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 10 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 11 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 34 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T20:31:44+08:00 ] ::1 /SignUpSys/index.php/Admin/Student/getAllStudentInfo?order=asc&offset=0&limit=20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_training` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_training_tree` [ RunTime:0.0030s ]
+SQL: SELECT `stu_Number`,`stu_Name`,`stu_Sex`,`stu_Grade`,`stu_Profession`,`stu_Class` FROM `su_student`  [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-04-19T20:31:50+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SELECT ctr_NodeId AS ctr_ParentId FROM `su_course_tree` WHERE ( ctr_Name = '方向一 JAVA' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_ParentId` = '12' )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 46 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T20:31:51+08:00 ] ::1 /SignUpSys/index.php/Admin/TSelection/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_training_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_training` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SELECT `ttr_Name` FROM `su_training_tree` WHERE ( ttr_Level = 1 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: profession E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\TSelectionController.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T20:31:51+08:00 ] ::1 /SignUpSys/index.php/Admin/Student/getAllStudentInfo?order=asc&offset=0&limit=20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_student_training` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_training_tree` [ RunTime:0.0020s ]
+SQL: SELECT `stu_Number`,`stu_Name`,`stu_Sex`,`stu_Grade`,`stu_Profession`,`stu_Class` FROM `su_student`  [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-19T20:31:52+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE ( ctr_Level = 3 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: direction E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 30 行.
+SQL: SELECT DISTINCT  `stu_Grade` FROM `su_student`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: grades E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 2 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 3 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 4 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 5 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 6 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 7 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 8 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 9 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 10 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 11 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 34 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-04-19T20:31:53+08:00 ] ::1 /SignUpSys/index.php/Admin/Student/getAllStudentInfo?order=asc&offset=0&limit=20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_training` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_training_tree` [ RunTime:0.0020s ]
+SQL: SELECT `stu_Number`,`stu_Name`,`stu_Sex`,`stu_Grade`,`stu_Profession`,`stu_Class` FROM `su_student`  [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T20:31:54+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SELECT ctr_NodeId AS ctr_ParentId FROM `su_course_tree` WHERE ( ctr_Name = '方向一 JAVA' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_ParentId` = '12' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 46 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-19T20:32:00+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E6%A8%A1%E5%9D%97
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SELECT ctr_NodeId AS ctr_ParentId FROM `su_course_tree` WHERE ( ctr_Name = '软件工程模块' )  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_ParentId` = '19' ) OR (  `ctr_ParentId` = '40' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 46 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T20:32:43+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE ( ctr_Level = 3 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: direction E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 30 行.
+SQL: SELECT DISTINCT  `stu_Grade` FROM `su_student`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: grades E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 2 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 3 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 4 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 5 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 6 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 7 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 8 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 9 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 10 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 11 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 34 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T20:32:44+08:00 ] ::1 /SignUpSys/index.php/Admin/Student/getAllStudentInfo?order=asc&offset=0&limit=20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_training` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_training_tree` [ RunTime:0.0030s ]
+SQL: SELECT `stu_Number`,`stu_Name`,`stu_Sex`,`stu_Grade`,`stu_Profession`,`stu_Class` FROM `su_student`  [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-19T20:32:47+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SELECT ctr_NodeId AS ctr_ParentId FROM `su_course_tree` WHERE ( ctr_Name = '方向一 JAVA' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_ParentId` = '12' )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 46 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-19T20:32:47+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SELECT ctr_NodeId AS ctr_ParentId FROM `su_course_tree` WHERE ( ctr_Name = '方向一 JAVA' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_ParentId` = '12' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 46 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T20:33:11+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SELECT ctr_NodeId AS ctr_ParentId FROM `su_course_tree` WHERE ( ctr_Name = '方向一 JAVA' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_ParentId` = '12' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 46 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-04-19T20:33:12+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SELECT ctr_NodeId AS ctr_ParentId FROM `su_course_tree` WHERE ( ctr_Name = '方向一 JAVA' )  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_ParentId` = '12' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 46 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T20:33:13+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0010s ]
+SQL: SELECT ctr_NodeId AS ctr_ParentId FROM `su_course_tree` WHERE ( ctr_Name = '方向一 JAVA' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_ParentId` = '12' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 46 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T20:33:14+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0010s ]
+SQL: SELECT ctr_NodeId AS ctr_ParentId FROM `su_course_tree` WHERE ( ctr_Name = '方向一 JAVA' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_ParentId` = '12' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 46 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T20:33:15+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SELECT ctr_NodeId AS ctr_ParentId FROM `su_course_tree` WHERE ( ctr_Name = '方向一 JAVA' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_ParentId` = '12' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 46 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-19T20:33:15+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SELECT ctr_NodeId AS ctr_ParentId FROM `su_course_tree` WHERE ( ctr_Name = '方向一 JAVA' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_ParentId` = '12' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 46 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T20:33:20+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SELECT ctr_NodeId AS ctr_ParentId FROM `su_course_tree` WHERE ( ctr_Name = '方向一 JAVA' )  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_ParentId` = '12' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 46 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T20:33:21+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SELECT ctr_NodeId AS ctr_ParentId FROM `su_course_tree` WHERE ( ctr_Name = '方向一 JAVA' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_ParentId` = '12' )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 46 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-19T20:33:22+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SELECT ctr_NodeId AS ctr_ParentId FROM `su_course_tree` WHERE ( ctr_Name = '方向一 JAVA' )  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_ParentId` = '12' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 46 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T20:33:23+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SELECT ctr_NodeId AS ctr_ParentId FROM `su_course_tree` WHERE ( ctr_Name = '方向一 JAVA' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_ParentId` = '12' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 46 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T20:33:24+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SELECT ctr_NodeId AS ctr_ParentId FROM `su_course_tree` WHERE ( ctr_Name = '方向一 JAVA' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_ParentId` = '12' )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 46 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-19T20:33:24+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0010s ]
+SQL: SELECT ctr_NodeId AS ctr_ParentId FROM `su_course_tree` WHERE ( ctr_Name = '方向一 JAVA' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_ParentId` = '12' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 46 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T20:36:23+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0030s ]
+SQL: SELECT ctr_NodeId AS ctr_ParentId FROM `su_course_tree` WHERE ( ctr_Name = '方向一 JAVA' )  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_ParentId` = '12' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 46 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T20:36:23+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0010s ]
+SQL: SELECT ctr_NodeId AS ctr_ParentId FROM `su_course_tree` WHERE ( ctr_Name = '方向一 JAVA' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_ParentId` = '12' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 46 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T20:36:25+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SELECT ctr_NodeId AS ctr_ParentId FROM `su_course_tree` WHERE ( ctr_Name = '方向一 JAVA' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_ParentId` = '12' )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 46 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T20:36:27+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SELECT ctr_NodeId AS ctr_ParentId FROM `su_course_tree` WHERE ( ctr_Name = '方向一 JAVA' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_ParentId` = '12' )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 46 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-19T20:36:33+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SELECT ctr_NodeId AS ctr_ParentId FROM `su_course_tree` WHERE ( ctr_Name = '方向一 JAVA' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_ParentId` = '12' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 46 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-19T20:36:34+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SELECT ctr_NodeId AS ctr_ParentId FROM `su_course_tree` WHERE ( ctr_Name = '方向一 JAVA' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_ParentId` = '12' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 46 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T20:36:39+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SELECT ctr_NodeId AS ctr_ParentId FROM `su_course_tree` WHERE ( ctr_Name = '方向一 JAVA' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_ParentId` = '12' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 46 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T20:36:40+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SELECT ctr_NodeId AS ctr_ParentId FROM `su_course_tree` WHERE ( ctr_Name = '方向一 JAVA' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_ParentId` = '12' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 46 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-04-19T20:36:44+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0030s ]
+SQL: SELECT ctr_NodeId AS ctr_ParentId FROM `su_course_tree` WHERE ( ctr_Name = '方向一 JAVA' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_ParentId` = '12' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 46 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T20:36:45+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0010s ]
+SQL: SELECT ctr_NodeId AS ctr_ParentId FROM `su_course_tree` WHERE ( ctr_Name = '方向一 JAVA' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_ParentId` = '12' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 46 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:25:07+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE ( ctr_Level = 3 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: direction E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 33 行.
+SQL: SELECT DISTINCT  `stu_Grade` FROM `su_student`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: grades E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 2 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 3 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 4 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 5 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 6 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 7 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 8 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 9 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 10 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 11 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-04-19T23:25:08+08:00 ] ::1 /SignUpSys/index.php/Admin/Student/getAllStudentInfo?order=asc&offset=0&limit=20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_training` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_training_tree` [ RunTime:0.0020s ]
+SQL: SELECT `stu_Number`,`stu_Name`,`stu_Sex`,`stu_Grade`,`stu_Profession`,`stu_Class` FROM `su_student`  [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-19T23:25:10+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA&grade=2014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2014' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_NodeId` = '16' ) OR (  `ctr_NodeId` = '17' ) OR (  `ctr_NodeId` = '20' ) OR (  `ctr_NodeId` = '21' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 57 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:25:11+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA&grade=2014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2014' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_NodeId` = '16' ) OR (  `ctr_NodeId` = '17' ) OR (  `ctr_NodeId` = '20' ) OR (  `ctr_NodeId` = '21' )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 57 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-19T23:25:18+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA&grade=2015
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2015' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_NodeId` = '37' ) OR (  `ctr_NodeId` = '38' ) OR (  `ctr_NodeId` = '44' ) OR (  `ctr_NodeId` = '45' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 57 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:25:19+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA&grade=2015
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0010s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2015' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_NodeId` = '37' ) OR (  `ctr_NodeId` = '38' ) OR (  `ctr_NodeId` = '44' ) OR (  `ctr_NodeId` = '45' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 57 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:25:20+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA&grade=2015
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2015' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_NodeId` = '37' ) OR (  `ctr_NodeId` = '38' ) OR (  `ctr_NodeId` = '44' ) OR (  `ctr_NodeId` = '45' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 57 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:25:21+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%BA%8C%20.net&grade=2015
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0010s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2015' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_NodeId` = '37' ) OR (  `ctr_NodeId` = '38' ) OR (  `ctr_NodeId` = '44' ) OR (  `ctr_NodeId` = '45' )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 57 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-19T23:25:23+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%BA%8C%20.net&grade=2015
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0030s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2015' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_NodeId` = '37' ) OR (  `ctr_NodeId` = '38' ) OR (  `ctr_NodeId` = '44' ) OR (  `ctr_NodeId` = '45' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 57 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:25:26+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%BA%8C%20.net&grade=2014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2014' )  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_NodeId` = '16' ) OR (  `ctr_NodeId` = '17' ) OR (  `ctr_NodeId` = '20' ) OR (  `ctr_NodeId` = '21' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 57 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:25:27+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%BA%8C%20.net&grade=2014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2014' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_NodeId` = '16' ) OR (  `ctr_NodeId` = '17' ) OR (  `ctr_NodeId` = '20' ) OR (  `ctr_NodeId` = '21' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 57 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:25:31+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%BA%8C%20.net&grade=2014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2014' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_NodeId` = '16' ) OR (  `ctr_NodeId` = '17' ) OR (  `ctr_NodeId` = '20' ) OR (  `ctr_NodeId` = '21' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 57 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-19T23:25:31+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E6%A8%A1%E5%9D%97&grade=2014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0010s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2014' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_NodeId` = '16' ) OR (  `ctr_NodeId` = '17' ) OR (  `ctr_NodeId` = '20' ) OR (  `ctr_NodeId` = '21' )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 57 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-19T23:25:43+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E6%A8%A1%E5%9D%97&grade=2015
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2015' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_NodeId` = '37' ) OR (  `ctr_NodeId` = '38' ) OR (  `ctr_NodeId` = '44' ) OR (  `ctr_NodeId` = '45' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 57 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:25:43+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E6%A8%A1%E5%9D%97&grade=2015
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2015' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_NodeId` = '37' ) OR (  `ctr_NodeId` = '38' ) OR (  `ctr_NodeId` = '44' ) OR (  `ctr_NodeId` = '45' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 57 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:25:44+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E6%A8%A1%E5%9D%97&grade=2015
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2015' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_NodeId` = '37' ) OR (  `ctr_NodeId` = '38' ) OR (  `ctr_NodeId` = '44' ) OR (  `ctr_NodeId` = '45' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 57 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-19T23:25:45+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%90%86%E8%AE%BA%E6%A8%A1%E5%9D%97&grade=2015
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2015' )  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_NodeId` = '37' ) OR (  `ctr_NodeId` = '38' ) OR (  `ctr_NodeId` = '44' ) OR (  `ctr_NodeId` = '45' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 57 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:33:27+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE ( ctr_Level = 3 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: direction E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 33 行.
+SQL: SELECT DISTINCT  `stu_Grade` FROM `su_student`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: grades E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 2 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 3 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 4 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 5 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 6 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 7 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 8 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 9 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 10 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 11 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-19T23:33:27+08:00 ] ::1 /SignUpSys/index.php/Admin/Student/getAllStudentInfo?order=asc&offset=0&limit=20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_training` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_training_tree` [ RunTime:0.0030s ]
+SQL: SELECT `stu_Number`,`stu_Name`,`stu_Sex`,`stu_Grade`,`stu_Profession`,`stu_Class` FROM `su_student`  [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-04-19T23:33:31+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%90%86%E8%AE%BA%E6%A8%A1%E5%9D%97&grade=2014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2014' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 60 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:33:32+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA&grade=2014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2014' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 60 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:33:34+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA&grade=2014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2014' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 60 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:33:34+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%BA%8C%20.net&grade=2014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2014' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 60 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-19T23:33:35+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%BA%8C%20.net&grade=2014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2014' )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 60 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-19T23:33:36+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E6%A8%A1%E5%9D%97&grade=2014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2014' )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 60 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-19T23:33:36+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E6%A8%A1%E5%9D%97&grade=2014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2014' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 60 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:33:37+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E7%BD%91%E7%BB%9C%E5%B7%A5%E7%A8%8B%E6%A8%A1%E5%9D%97&grade=2014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2014' )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 60 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-19T23:33:38+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E7%BD%91%E7%BB%9C%E5%B7%A5%E7%A8%8B%E6%A8%A1%E5%9D%97&grade=2014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2014' )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 60 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-19T23:33:38+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E7%BD%91%E7%BB%9C%E5%B7%A5%E7%A8%8B%E6%A8%A1%E5%9D%97&grade=2014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2014' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 60 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:33:39+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E7%BD%91%E7%BB%9C%E5%B7%A5%E7%A8%8B%E6%A8%A1%E5%9D%97&grade=2014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2014' )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 60 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-19T23:33:40+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%90%86%E8%AE%BA%E6%A8%A1%E5%9D%97&grade=2014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017001s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0100s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2014' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 60 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:34:08+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '%s' )  [ RunTime:0.0180s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 60 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:34:15+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '%s' )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 60 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-19T23:34:17+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '%s' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 60 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-19T23:34:25+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0030s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0020s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '%s' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 60 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:34:45+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA&grade=2014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2014' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 60 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-19T23:34:57+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA&grade=2015
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2015' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 60 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:35:00+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA&grade=2015
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2015' )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 60 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:35:01+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA&grade=2015
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2015' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 60 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:35:55+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA&grade=2015
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2015' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 60 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:36:09+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA&grade=2015
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 47 行.
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2015' )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 61 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-19T23:36:38+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA&grade=2015
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0010s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2015' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 61 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:37:00+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA&grade=2015
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0030s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT ctr_NodeId AS ctr_ParentId FROM `su_course_tree` WHERE ( ctr_Name = '方向一 JAVA' )  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_ParentId` = '12' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 53 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:37:17+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%90%86%E8%AE%BA%E6%A8%A1%E5%9D%97&grade=2014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2014' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 61 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:37:18+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA&grade=2014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0030s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2014' )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 61 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-19T23:37:22+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA&grade=2015
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0030s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT ctr_NodeId AS ctr_ParentId FROM `su_course_tree` WHERE ( ctr_Name = '方向一 JAVA' )  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_ParentId` = '12' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 53 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:37:23+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA&grade=2015
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT ctr_NodeId AS ctr_ParentId FROM `su_course_tree` WHERE ( ctr_Name = '方向一 JAVA' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_ParentId` = '12' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 53 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:37:29+08:00 ] ::1 /SignUpSys/index.php/Admin/CTree/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0010s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name = 'admin' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-19T23:37:29+08:00 ] ::1 /SignUpSys/index.php/Admin/CTree/getTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `ctr_NodeId`,`ctr_ParentId`,ctr_Name AS name,`ctr_Limit`,`ctr_Level`,`ctr_Synopsis` FROM `su_course_tree`  [ RunTime:0.0010s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 12 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 14 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 15 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 16 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 19 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 20 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 22 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 23 )  [ RunTime:0.0010s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 25 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 26 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 28 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 29 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 33 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 35 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 34 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 37 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 40 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 44 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 41 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 46 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 42 )  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 48 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 43 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 50 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 55 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 59 )  [ RunTime:0.0010s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 56 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 62 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 57 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 65 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 58 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 67 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:37:42+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE ( ctr_Level = 3 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: direction E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 33 行.
+SQL: SELECT DISTINCT  `stu_Grade` FROM `su_student`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: grades E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 2 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 3 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 4 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 5 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 6 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 7 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 8 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 9 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 10 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 11 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-19T23:37:42+08:00 ] ::1 /SignUpSys/index.php/Admin/Student/getAllStudentInfo?order=asc&offset=0&limit=20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_training` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_training_tree` [ RunTime:0.0020s ]
+SQL: SELECT `stu_Number`,`stu_Name`,`stu_Sex`,`stu_Grade`,`stu_Profession`,`stu_Class` FROM `su_student`  [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:37:46+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA&grade=2014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2014' )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 61 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:37:46+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA&grade=2014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0010s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2014' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 61 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:37:48+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA&grade=2014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2014' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 61 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-19T23:37:48+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%BA%8C%20.net&grade=2014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2014' )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 61 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-19T23:37:49+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%BA%8C%20.net&grade=2014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2014' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 61 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:37:49+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E6%A8%A1%E5%9D%97&grade=2014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0010s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2014' )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 61 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-19T23:37:51+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E6%A8%A1%E5%9D%97&grade=2014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2014' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 61 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:37:52+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%90%86%E8%AE%BA%E6%A8%A1%E5%9D%97&grade=2014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0010s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2014' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 61 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:38:27+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE ( ctr_Level = 3 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: direction E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 33 行.
+SQL: SELECT DISTINCT  `stu_Grade` FROM `su_student`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: grades E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 2 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 3 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 4 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 5 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 6 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 7 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 8 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 9 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 10 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 11 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-19T23:38:27+08:00 ] ::1 /SignUpSys/index.php/Admin/Student/getAllStudentInfo?order=asc&offset=0&limit=20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_training` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_training_tree` [ RunTime:0.0030s ]
+SQL: SELECT `stu_Number`,`stu_Name`,`stu_Sex`,`stu_Grade`,`stu_Profession`,`stu_Class` FROM `su_student`  [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:38:29+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%90%86%E8%AE%BA%E6%A8%A1%E5%9D%97&grade=2014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0030s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2014' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_NodeId` = '16' ) OR (  `ctr_NodeId` = '17' ) OR (  `ctr_NodeId` = '20' ) OR (  `ctr_NodeId` = '21' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 59 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:38:30+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%90%86%E8%AE%BA%E6%A8%A1%E5%9D%97&grade=2014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2014' )  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_NodeId` = '16' ) OR (  `ctr_NodeId` = '17' ) OR (  `ctr_NodeId` = '20' ) OR (  `ctr_NodeId` = '21' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 59 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:38:31+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%90%86%E8%AE%BA%E6%A8%A1%E5%9D%97&grade=2014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2014' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_NodeId` = '16' ) OR (  `ctr_NodeId` = '17' ) OR (  `ctr_NodeId` = '20' ) OR (  `ctr_NodeId` = '21' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 59 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-19T23:38:38+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%90%86%E8%AE%BA%E6%A8%A1%E5%9D%97&grade=2015
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0030s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT ctr_NodeId AS ctr_ParentId FROM `su_course_tree` WHERE ( ctr_Name = '计算机理论模块' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_ParentId` = '25' ) OR (  `ctr_ParentId` = '42' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 59 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:38:38+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA&grade=2015
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT ctr_NodeId AS ctr_ParentId FROM `su_course_tree` WHERE ( ctr_Name = '方向一 JAVA' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_ParentId` = '12' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 59 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-19T23:38:39+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA&grade=2015
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT ctr_NodeId AS ctr_ParentId FROM `su_course_tree` WHERE ( ctr_Name = '方向一 JAVA' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_ParentId` = '12' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 59 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-19T23:38:40+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%BA%8C%20.net&grade=2015
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0010s ]
+SQL: SELECT ctr_NodeId AS ctr_ParentId FROM `su_course_tree` WHERE ( ctr_Name = '方向二 .net' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_ParentId` = '15' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 59 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:38:40+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%BA%8C%20.net&grade=2015
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT ctr_NodeId AS ctr_ParentId FROM `su_course_tree` WHERE ( ctr_Name = '方向二 .net' )  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_ParentId` = '15' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 59 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:38:41+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E6%A8%A1%E5%9D%97&grade=2015
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT ctr_NodeId AS ctr_ParentId FROM `su_course_tree` WHERE ( ctr_Name = '软件工程模块' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_ParentId` = '19' ) OR (  `ctr_ParentId` = '40' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 59 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:38:43+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E6%A8%A1%E5%9D%97&grade=2015
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0030s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0010s ]
+SQL: SELECT ctr_NodeId AS ctr_ParentId FROM `su_course_tree` WHERE ( ctr_Name = '软件工程模块' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_ParentId` = '19' ) OR (  `ctr_ParentId` = '40' )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 59 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:38:44+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%BA%8C%20.net&grade=2015
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT ctr_NodeId AS ctr_ParentId FROM `su_course_tree` WHERE ( ctr_Name = '方向二 .net' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_ParentId` = '15' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 59 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-19T23:38:45+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%BA%8C%20.net&grade=2015
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT ctr_NodeId AS ctr_ParentId FROM `su_course_tree` WHERE ( ctr_Name = '方向二 .net' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_ParentId` = '15' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 59 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-19T23:38:46+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E9%80%9A%E4%BF%A1%E7%90%86%E8%AE%BA%E6%A8%A1%E5%9D%97&grade=2015
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT ctr_NodeId AS ctr_ParentId FROM `su_course_tree` WHERE ( ctr_Name = '通信理论模块' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_ParentId` = '28' ) OR (  `ctr_ParentId` = '43' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 59 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:41:53+08:00 ] ::1 /SignUpSys/index.php/Admin/CTree/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name = 'admin' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-19T23:41:53+08:00 ] ::1 /SignUpSys/index.php/Admin/CTree/getTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0030s ]
+SQL: SELECT `ctr_NodeId`,`ctr_ParentId`,ctr_Name AS name,`ctr_Limit`,`ctr_Level`,`ctr_Synopsis` FROM `su_course_tree`  [ RunTime:0.0010s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 12 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 14 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 15 )  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 16 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 19 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 20 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 22 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 23 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 25 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 26 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 28 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 29 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 33 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 35 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 34 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 37 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 40 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 44 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 41 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 46 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 42 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 48 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 43 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 50 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 55 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 59 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 56 )  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 62 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 57 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 65 )  [ RunTime:0.0000s ]
+SQL: SELECT `ctr_NodeId` FROM `su_course_tree` WHERE ( ctr_ParentId = 58 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(ch_StuNumber) AS count FROM `su_student_choice` WHERE ( ch_TrNodeId = 67 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-19T23:45:07+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE ( ctr_Level = 3 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: direction E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 33 行.
+SQL: SELECT DISTINCT  `stu_Grade` FROM `su_student`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: grades E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 2 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 3 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 4 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 5 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 6 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 7 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 8 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 9 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 10 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 11 E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:45:07+08:00 ] ::1 /SignUpSys/index.php/Admin/Student/getAllStudentInfo?order=asc&offset=0&limit=20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_training` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_training_tree` [ RunTime:0.0020s ]
+SQL: SELECT `stu_Number`,`stu_Name`,`stu_Sex`,`stu_Grade`,`stu_Profession`,`stu_Class` FROM `su_student`  [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-19T23:45:08+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA&grade=2014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2014' )  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_NodeId` = '16' ) OR (  `ctr_NodeId` = '17' ) OR (  `ctr_NodeId` = '20' ) OR (  `ctr_NodeId` = '21' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 59 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:45:09+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA&grade=2014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2014' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_NodeId` = '16' ) OR (  `ctr_NodeId` = '17' ) OR (  `ctr_NodeId` = '20' ) OR (  `ctr_NodeId` = '21' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 59 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:45:11+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA&grade=2014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2014' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_NodeId` = '16' ) OR (  `ctr_NodeId` = '17' ) OR (  `ctr_NodeId` = '20' ) OR (  `ctr_NodeId` = '21' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 59 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-19T23:45:16+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA&grade=2014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2014' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_NodeId` = '16' ) OR (  `ctr_NodeId` = '17' ) OR (  `ctr_NodeId` = '20' ) OR (  `ctr_NodeId` = '21' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 59 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:45:17+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA&grade=2014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2014' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_NodeId` = '16' ) OR (  `ctr_NodeId` = '17' ) OR (  `ctr_NodeId` = '20' ) OR (  `ctr_NodeId` = '21' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 59 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:45:18+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA&grade=2014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2014' )  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_NodeId` = '16' ) OR (  `ctr_NodeId` = '17' ) OR (  `ctr_NodeId` = '20' ) OR (  `ctr_NodeId` = '21' )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 59 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:45:19+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA&grade=2014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2014' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_NodeId` = '16' ) OR (  `ctr_NodeId` = '17' ) OR (  `ctr_NodeId` = '20' ) OR (  `ctr_NodeId` = '21' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 59 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:45:19+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA&grade=2014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2014' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_NodeId` = '16' ) OR (  `ctr_NodeId` = '17' ) OR (  `ctr_NodeId` = '20' ) OR (  `ctr_NodeId` = '21' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 59 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:45:19+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA&grade=2014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT ch_TrNodeId AS ctr_NodeId FROM `su_student_choice` WHERE ( ch_strGrade = '2014' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_NodeId` = '16' ) OR (  `ctr_NodeId` = '17' ) OR (  `ctr_NodeId` = '20' ) OR (  `ctr_NodeId` = '21' )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 59 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-19T23:45:22+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA&grade=2015
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0030s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT ctr_NodeId AS ctr_ParentId FROM `su_course_tree` WHERE ( ctr_Name = '方向一 JAVA' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_ParentId` = '12' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 59 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:45:22+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA&grade=2015
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT ctr_NodeId AS ctr_ParentId FROM `su_course_tree` WHERE ( ctr_Name = '方向一 JAVA' )  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_ParentId` = '12' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 59 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T23:45:30+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getInfo?nodeName=JAVA%20WEB%E5%BC%80%E5%8F%91*&grade=2015&order=asc&offset=0&limit=20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT ctr_NodeId AS ch_TrNodeId FROM `su_course_tree` WHERE `ctr_Name` = 'JAVA WEB开发*'  [ RunTime:0.0000s ]
+SQL: SELECT ch_StuNumber AS stu_Number FROM `su_student_choice` WHERE (  `ch_TrNodeId` = '14' )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-19T23:45:36+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getInfo?nodeName=JAVA%20WEB%E5%BC%80%E5%8F%91*&grade=2014&order=asc&offset=0&limit=20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT ctr_NodeId AS ch_TrNodeId FROM `su_course_tree` WHERE `ctr_Name` = 'JAVA WEB开发*'  [ RunTime:0.0000s ]
+SQL: SELECT ch_StuNumber AS stu_Number FROM `su_student_choice` WHERE (  `ch_TrNodeId` = '14' )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-19T23:49:23+08:00 ] ::1 /SignUpSys/index.php/Admin/CSelection/getClassName?direction=%E6%96%B9%E5%90%91%E4%B8%80%20JAVA&grade=2015
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `su_course_tree` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0020s ]
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name='admin' )  [ RunTime:0.0000s ]
+SQL: SELECT ctr_NodeId AS ctr_ParentId FROM `su_course_tree` WHERE ( ctr_Name = '方向一 JAVA' )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT ctr_Name FROM `su_course_tree` WHERE (  `ctr_ParentId` = '12' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str E:\DevelopTools\xampp\htdocs\SignUpSys\App\Admin\Controller\CSelectionController.class.php 第 59 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

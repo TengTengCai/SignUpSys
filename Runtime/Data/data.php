@@ -1,0 +1,1 @@
+a:1:{i:0;a:6:{s:10:"stu_Number";s:10:"1610504166";s:7:"stu_Sex";s:3:"女";s:8:"stu_Name";s:6:"张婷";s:9:"stu_Grade";s:4:"2016";s:14:"stu_Profession";s:47:"计算机科学与技术(中兴通讯云计算)";s:9:"stu_Class";s:1:"1";}}

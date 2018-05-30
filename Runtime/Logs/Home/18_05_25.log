@@ -1,0 +1,476 @@
+[ 2018-05-25T17:09:12+08:00 ] 222.209.10.175 /SignUpSys/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+ERR: 无法加载控制器:Index
+
+[ 2018-05-25T17:13:12+08:00 ] 222.209.10.175 /SignUpSys/index.php/Home/Login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+NOTIC: [2] Use of undefined constant HOME_JS_URL - assumed 'HOME_JS_URL' (this will throw an Error in a future version of PHP) C:\xampp\htdocs\SignUpSys\Runtime\Cache\Home\29043a4c167ab71e7ddaec218a6a2780.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006397s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006439s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000672s ]
+
+[ 2018-05-25T17:13:13+08:00 ] 222.209.10.175 /SignUpSys/index.php/Home/Login/verifyImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000794s ]
+
+[ 2018-05-25T17:15:50+08:00 ] 222.209.10.175 /SignUpSys/index.php/Home/Login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+NOTIC: [2] Use of undefined constant HOME_JS_URL - assumed 'HOME_JS_URL' (this will throw an Error in a future version of PHP) C:\xampp\htdocs\SignUpSys\Runtime\Cache\Home\29043a4c167ab71e7ddaec218a6a2780.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2018-05-25T17:15:50+08:00 ] 222.209.10.175 /SignUpSys/index.php/Home/Login/verifyImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2018-05-25T17:16:22+08:00 ] 222.209.10.175 /SignUpSys/index.php/Home/Login/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `su_student` WHERE ( stu_Number=123 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2018-05-25T17:16:22+08:00 ] 222.209.10.175 /SignUpSys/index.php/Home/Practice/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+SQL: SHOW COLUMNS FROM `su_training_tree` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `su_student_training` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0011s ]
+SQL: SELECT `stu_Name`,`stu_Grade`,`stu_Profession`,`stu_Class` FROM `su_student` WHERE ( stu_Number = 123 )  [ RunTime:0.0003s ]
+SQL: SELECT tra_TrNodeId AS ttr_NodeId FROM `su_student_training` WHERE ( tra_StuNumber = 123 )  [ RunTime:0.0002s ]
+SQL: SELECT `ttr_NodeId`,`ttr_ParentId`,`ttr_Name`,`ttr_Limit`,`ttr_Synopsis` FROM `su_training_tree` WHERE (  `ttr_NodeId` = '19' )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(tra_StuNumber) AS count FROM `su_student_training` WHERE ( tra_TrNodeId = 19 )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: table C:\xampp\htdocs\SignUpSys\App\Home\Controller\PracticeController.class.php 第 55 行.
+SQL: SELECT `mg_Rule` FROM `su_manager` WHERE ( mg_Name = 'admin' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004721s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2018-05-25T17:16:22+08:00 ] 222.209.10.175 /SignUpSys/index.php/Home/Login/verifyImg?0.4501424064331996
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2018-05-25T17:16:22+08:00 ] 222.209.10.175 /SignUpSys/index.php/Home/Practice/getTTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+SQL: SHOW COLUMNS FROM `su_training_tree` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `su_student_training` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0010s ]
+SQL: SELECT `stu_Name`,`stu_Grade`,`stu_Profession`,`stu_Class` FROM `su_student` WHERE ( stu_Number = 123 )  [ RunTime:0.0003s ]
+SQL: SELECT `ttr_NodeId`,`ttr_ParentId`,ttr_Name AS name,ttr_Level AS level,`ttr_Limit`,`ttr_Synopsis` FROM `su_training_tree` WHERE ( ttr_Name = '计算机科学与技术' )  [ RunTime:0.0003s ]
+SQL: SELECT `ttr_NodeId`,`ttr_ParentId`,ttr_Name AS name,ttr_Level AS level,`ttr_Limit`,`ttr_Synopsis` FROM `su_training_tree` WHERE ( ttr_Name = '2014' AND ttr_ParentId = '5'  )  [ RunTime:0.0003s ]
+SQL: SELECT tra_TrNodeId AS ttr_NodeId FROM `su_student_training` WHERE ( tra_StuNumber = 123 )  [ RunTime:0.0002s ]
+SQL: SELECT ttr_ParentId AS ttr_NodeId FROM `su_training_tree` WHERE (  `ttr_NodeId` = '19' )  [ RunTime:0.0002s ]
+SQL: SELECT `ttr_NodeId`,`ttr_ParentId`,ttr_Name AS name,ttr_Level AS level,`ttr_Limit`,`ttr_Synopsis` FROM `su_training_tree` WHERE `ttr_NodeId` NOT IN ('13') AND `ttr_ParentId` = 6  [ RunTime:0.0004s ]
+SQL: SELECT `ttr_NodeId`,`ttr_ParentId`,ttr_Name AS name,ttr_Level AS level,`ttr_Limit`,`ttr_Synopsis` FROM `su_training_tree` WHERE ( ttr_ParentId = 23 )  [ RunTime:0.0004s ]
+SQL: SELECT `ttr_NodeId`,`ttr_ParentId`,ttr_Name AS name,ttr_Level AS level,`ttr_Limit`,`ttr_Synopsis` FROM `su_training_tree` WHERE ( ttr_ParentId = 24 )  [ RunTime:0.0002s ]
+SQL: SELECT `ttr_NodeId`,`ttr_ParentId`,ttr_Name AS name,ttr_Level AS level,`ttr_Limit`,`ttr_Synopsis` FROM `su_training_tree` WHERE ( ttr_ParentId = 25 )  [ RunTime:0.0002s ]
+SQL: SELECT `ttr_NodeId`,`ttr_ParentId`,ttr_Name AS name,ttr_Level AS level,`ttr_Limit`,`ttr_Synopsis` FROM `su_training_tree` WHERE ( ttr_ParentId = 26 )  [ RunTime:0.0002s ]
+SQL: SELECT `ttr_NodeId`,`ttr_ParentId`,ttr_Name AS name,ttr_Level AS level,`ttr_Limit`,`ttr_Synopsis` FROM `su_training_tree` WHERE ( ttr_ParentId = 27 )  [ RunTime:0.0002s ]
+SQL: SELECT `ttr_NodeId`,`ttr_ParentId`,ttr_Name AS name,ttr_Level AS level,`ttr_Limit`,`ttr_Synopsis` FROM `su_training_tree` WHERE ( ttr_ParentId = 28 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000683s ]
+
+[ 2018-05-25T17:18:18+08:00 ] 61.151.225.191 /SignUpSys/index.php/Home/Login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+NOTIC: [2] Use of undefined constant HOME_JS_URL - assumed 'HOME_JS_URL' (this will throw an Error in a future version of PHP) C:\xampp\htdocs\SignUpSys\Runtime\Cache\Home\29043a4c167ab71e7ddaec218a6a2780.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004708s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000506s ]
+
+[ 2018-05-25T17:19:04+08:00 ] 222.209.10.175 /SignUpSys/index.php/Home/Login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+NOTIC: [2] Use of undefined constant HOME_JS_URL - assumed 'HOME_JS_URL' (this will throw an Error in a future version of PHP) C:\xampp\htdocs\SignUpSys\Runtime\Cache\Home\29043a4c167ab71e7ddaec218a6a2780.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004537s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2018-05-25T17:19:04+08:00 ] 222.209.10.175 /SignUpSys/index.php/Home/Login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+NOTIC: [2] Use of undefined constant HOME_JS_URL - assumed 'HOME_JS_URL' (this will throw an Error in a future version of PHP) C:\xampp\htdocs\SignUpSys\Runtime\Cache\Home\29043a4c167ab71e7ddaec218a6a2780.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004558s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000553s ]
+
+[ 2018-05-25T17:19:05+08:00 ] 222.209.10.175 /SignUpSys/index.php/Home/Login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [2] Use of undefined constant HOME_JS_URL - assumed 'HOME_JS_URL' (this will throw an Error in a future version of PHP) C:\xampp\htdocs\SignUpSys\Runtime\Cache\Home\29043a4c167ab71e7ddaec218a6a2780.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004656s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000584s ]
+
+[ 2018-05-25T17:19:06+08:00 ] 222.209.10.175 /SignUpSys/index.php/Home/Login/verifyImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000833s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000881s ]
+
+[ 2018-05-25T17:19:20+08:00 ] 222.209.10.175 /SignUpSys/index.php/Home/Practice/getCount?nodeId=28
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `su_training_tree` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `su_student_training` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0010s ]
+SQL: SELECT `stu_Name`,`stu_Grade`,`stu_Profession`,`stu_Class` FROM `su_student` WHERE ( stu_Number = 123 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(tra_StuNumber) AS count FROM `su_student_training` WHERE ( tra_TrNodeId = 28 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000546s ]
+
+[ 2018-05-25T17:19:22+08:00 ] 222.209.10.175 /SignUpSys/index.php/Home/Practice/getCount?nodeId=27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `su_training_tree` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `su_student_training` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0010s ]
+SQL: SELECT `stu_Name`,`stu_Grade`,`stu_Profession`,`stu_Class` FROM `su_student` WHERE ( stu_Number = 123 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(tra_StuNumber) AS count FROM `su_student_training` WHERE ( tra_TrNodeId = 27 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000564s ]
+
+[ 2018-05-25T17:19:22+08:00 ] 222.209.10.175 /SignUpSys/index.php/Home/Practice/getCount?nodeId=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+SQL: SHOW COLUMNS FROM `su_training_tree` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `su_student_training` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0011s ]
+SQL: SELECT `stu_Name`,`stu_Grade`,`stu_Profession`,`stu_Class` FROM `su_student` WHERE ( stu_Number = 123 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(tra_StuNumber) AS count FROM `su_student_training` WHERE ( tra_TrNodeId = 25 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000609s ]
+
+[ 2018-05-25T17:19:23+08:00 ] 222.209.10.175 /SignUpSys/index.php/Home/Practice/getCount?nodeId=24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `su_training_tree` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `su_student_training` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0012s ]
+SQL: SELECT `stu_Name`,`stu_Grade`,`stu_Profession`,`stu_Class` FROM `su_student` WHERE ( stu_Number = 123 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(tra_StuNumber) AS count FROM `su_student_training` WHERE ( tra_TrNodeId = 24 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000566s ]
+
+[ 2018-05-25T17:19:25+08:00 ] 222.209.10.175 /SignUpSys/index.php/Home/Practice/getCount?nodeId=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `su_training_tree` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `su_student_training` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0010s ]
+SQL: SELECT `stu_Name`,`stu_Grade`,`stu_Profession`,`stu_Class` FROM `su_student` WHERE ( stu_Number = 123 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(tra_StuNumber) AS count FROM `su_student_training` WHERE ( tra_TrNodeId = 25 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2018-05-25T17:19:29+08:00 ] 222.209.10.175 /SignUpSys/index.php/Home/Practice/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `su_training_tree` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `su_student_training` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `su_manager` [ RunTime:0.0011s ]
+SQL: SELECT `stu_Name`,`stu_Grade`,`stu_Profession`,`stu_Class` FROM `su_student` WHERE ( stu_Number = 123 )  [ RunTime:0.0003s ]
+
+[ 2018-05-25T17:19:29+08:00 ] 222.209.10.175 /SignUpSys/index.php/Home/Practice/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+
+[ 2018-05-25T17:19:29+08:00 ] 222.209.10.175 /SignUpSys/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [2] Use of undefined constant HOME_JS_URL - assumed 'HOME_JS_URL' (this will throw an Error in a future version of PHP) C:\xampp\htdocs\SignUpSys\Runtime\Cache\Home\29043a4c167ab71e7ddaec218a6a2780.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004952s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2018-05-25T17:19:29+08:00 ] 222.209.10.175 /SignUpSys/index.php/Home/Login/verifyImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000541s ]
+
+[ 2018-05-25T19:42:05+08:00 ] 47.92.2.67 /SignUpSys/index.php/Home/Practice/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+
+[ 2018-05-25T19:42:05+08:00 ] 47.92.2.67 /SignUpSys/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+NOTIC: [2] Use of undefined constant HOME_JS_URL - assumed 'HOME_JS_URL' (this will throw an Error in a future version of PHP) C:\xampp\htdocs\SignUpSys\Runtime\Cache\Home\29043a4c167ab71e7ddaec218a6a2780.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005052s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005092s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2018-05-25T21:51:08+08:00 ] 23.247.67.154 /SignUpSys/index.php/Home/Login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [2] Use of undefined constant HOME_JS_URL - assumed 'HOME_JS_URL' (this will throw an Error in a future version of PHP) C:\xampp\htdocs\SignUpSys\Runtime\Cache\Home\29043a4c167ab71e7ddaec218a6a2780.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004611s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004646s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000621s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000656s ]
+
+[ 2018-05-25T21:51:11+08:00 ] 23.247.67.154 /SignUpSys/index.php/Home/Login/setPassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `su_student_choice` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `su_student` [ RunTime:0.0011s ]
+
